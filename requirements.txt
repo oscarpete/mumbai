@@ -1,0 +1,22 @@
+# Core RAG & UI
+streamlit
+pydantic-ai[gemini]  # Installs pydantic-ai and google-generativeai
+supabase >= 2.0     # Use supabase-py v2 for async support
+python-dotenv
+logfire
+
+# Web Scraping
+crawl4ai
+requests
+beautifulsoup4
+lxml              # For XML parsing (sitemaps)
+httpx             # Often used by async libraries
+
+# PDF Conversion (marker-pdf)
+marker-pdf
+PyPDF2            # For reading PDF page count before marker
+# PyTorch - Install separately based on your system (CPU/CUDA)
+# See: https://pytorch.org/get-started/locally/
+
+# Optional, but good practice
+ipykernel         # For notebooks if used
